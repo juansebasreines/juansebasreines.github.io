@@ -1,0 +1,134 @@
+
+
+body {
+	background-color: #233142;
+}
+
+h1 {
+	font-family: 'Comfortaa', cursive;
+	color: white;
+	text-align: center;
+}
+
+.container {
+  display: table;
+  width: 100%;
+}
+
+/*------------------------------------------------------------------*/
+/*-----------------------STYLE PARTE ENTRADA -----------------------*/
+/*------------------------------------------------------------------*/
+
+
+input {
+	width:calc(940px * 0.57);
+	height: calc(940px * 0.4);
+	position: relative;
+	background-color: #8dc6ff;
+	border-radius: 15px;
+	font-family: 'Montserrat';
+	border: none;
+	text-align: center;
+	margin: 0 5px;
+	font-size: 30px;
+
+}
+
+input:focus{
+	outline: none;
+}
+
+.ingreso{
+	width: 70%;
+	text-align: center;
+	display: inline-block;
+	float: left;
+}
+
+
+.botones-ingreso{
+	display: block;
+}
+
+.encriptar{
+
+	width: 30%;
+	padding: 10px 0;
+	font-size: 1.2em;
+	background-color: #455d7a;
+	color: white;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	margin: 0.5em;
+}
+
+.desencriptar{
+
+	width: 30%;
+	padding: 10px 0;
+	font-size: 1.2em;
+	background-color: #f95959;
+	color: white;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	margin: 0.5em;
+}
+
+
+/*------------------------------------------------------------------*/
+/*-----------------------STYLE PARTE SALIDA ------------------------*/
+/*------------------------------------------------------------------*/
+
+.salida {
+	display: inline-block;
+	height: 30em;
+	float: left;
+}
+
+#pantalla-salida{
+	width: calc(940px * 0.3);
+	height: calc(940px * 0.4);
+	position: relative;
+	background-color: #8dc6ff;
+	border-radius: 15px;
+	font-family: 'Montserrat';
+	border: none;
+	text-align: center;
+	font-size: 30px;
+
+}
+
+#pantalla-salida:focus{
+	outline: none;
+}
+
+.copiar{
+	display: block;
+	width: 100%;
+	padding: 10px 0;
+	font-size: 1.2em;
+	background-color: #93deff;
+	color: #2470a0;
+	border-radius: 10px;
+	border-color: #0092ca;
+	cursor: pointer;
+	margin: 0.5em 0;
+
+}
+
+
+/*------------------------------------------------------------------*/
+/*-----------------------STYLE MEDIA QUERY -------------------------*/
+/*------------------------------------------------------------------*/
+
+@media screen and (max-width: 800px){
+	
+	.salida, .ingreso{
+		width: 100%;
+
+	}
+
+	
+}
